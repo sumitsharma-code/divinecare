@@ -1,7 +1,15 @@
+@font-face{
+    font-family: logofont;
+    src: url(fonts\baby-face-font\BabyFace-xj9q.ttf);
+    }
+
 * {
     margin: 0;
     padding: 0;
 }
+
+
+/* top contacts */
 
 .nav-contacts {
     background-color: #a5f0c5;
@@ -13,7 +21,33 @@
     color: #184d47;
 }
 
+
+
+
+
+/* navbar styling */
+
 .nav-contact-icons i{
     font-size: 1.25rem;
     margin-left: 0.25rem;
+}
+
+nav {
+    background-color: aliceblue;
+    height: 3.75rem;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+.logo {
+    font-style: logofont;
+    font-size: 1.5rem;
 }
