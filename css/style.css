@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.nav-contacts {
+    background-color: #a5f0c5;
+    height: 1.8rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #184d47;
+}
+
+.nav-contact-icons i{
+    font-size: 1.25rem;
+    margin-left: 0.25rem;
+}
